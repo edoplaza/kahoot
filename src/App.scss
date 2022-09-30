@@ -1,0 +1,51 @@
+@import '~styles/variables';
+
+.App {
+  background: $light-gray;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &__container {
+    background: $white;
+    width: 90%;
+    height: 90%;
+    display: flex;
+    border-radius: 50px;
+    overflow: hidden;
+
+    @media (orientation: landscape) {
+      min-width: $width-min;
+      max-width: $width-max;
+      min-height: $height-min;
+      max-height: $height-max;
+    }
+
+    @media (orientation: portrait) {
+      min-width: $height-min;
+      max-width: $height-max;
+      min-height: $width-min;
+      max-height: $width-max;
+    }
+  }
+
+  &__main {
+    display: flex;
+    height: 100%;
+    width: 70%;
+  }
+
+  &__aside {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 30%;
+
+    > div {
+      flex: 1;
+    }
+  }
+}

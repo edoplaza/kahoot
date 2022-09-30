@@ -1,2 +1,18 @@
-$border-radius: 4px;
-$container: 1416px;
+//Layout
+$width-max: 1366px;
+$width-min: 1024px;
+$height-max: 1024px;
+$height-min: 768px;
+
+// colors
+$light-gray: #f1f1f1;
+$black: #111111;
+$purple: #46178f;
+$blue: #758bc8;
+$magenta: #b45196;
+$yellow: #fdbc65;
+$white: #ffffff;
+
+// typography
+$game-font: 'Dangrek', cursive;
+$big-font: 40px;

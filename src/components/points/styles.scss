@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.Points {
+  padding: 50px;
+  width: 100%;
+  overflow-y: auto;
+  background: $white;
+
+  &__header {
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+    color: $purple;
+
+    &-logo {
+      width: 150px;
+    }
+
+    &-title {
+      font-size: $big-font;
+      font-family: $game-font;
+    }
+  }
+}
