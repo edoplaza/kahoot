@@ -1,17 +1,34 @@
 @import '../../styles/variables';
 
 .Items {
-  width: 100%;
   height: 100%;
   overflow-y: auto;
-  padding: 50px;
+  padding: 10px 50px 50px 30px;
   background: $magenta;
+  border-bottom: 15px solid $dark-magenta;
 
   &__header {
+    height: 80px;
+    display: flex;
+    align-items: flex-end;
+
     &-title {
       color: $white;
       font-size: $big-font;
-      font-family: $game-font;
+    }
+  }
+
+  &__legend {
+    padding: 50px 5px;
+    display: flex;
+    justify-content: space-between;
+
+    > span {
+      font-size: $small-font;
+      font-weight: 600;
+      width: 33.33%;
+      color: white;
+      text-align: center;
     }
   }
 }

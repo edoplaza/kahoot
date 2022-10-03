@@ -44,8 +44,12 @@
     height: 100%;
     width: 30%;
 
-    > div {
-      flex: 1;
+    > div:first-child {
+      height: 70%;
+    }
+
+    > div:last-child {
+      height: 30%;
     }
   }
 }

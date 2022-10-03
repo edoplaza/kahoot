@@ -1,0 +1,19 @@
+@import '../../../styles/variables';
+
+.Button {
+  border: none;
+  border-radius: 5px;
+  background: $purple;
+  color: white;
+  padding: 5px 20px;
+  font-family: $game-font;
+  font-size: $small-font;
+  transition: 0.3s;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+  }
+}

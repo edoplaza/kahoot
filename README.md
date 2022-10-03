@@ -1,3 +1,25 @@
+# Notes
+
+This project was created in about 12 hours
+
+The main idea was to create a scalable app with a simple architecture and good coding practices
+
+Some features:
+
+- I use scss (sass) and BEM for styling, centralizing main styles, and using local files for each component.
+- I use a simple store (Context + useReducer) for better use of state updates avoiding prop drilling.
+- I use a basic implementation of Typescript for each component and the store.
+- I tested all functions (unit and integration tests) using React Testing Library.
+- I tried to give a "gaming" look on the UI, adapted the layout for iPads (landscape)
+- Bonuses and Scores are flexible, added to each "item"
+
+If more time:
+
+- Better use of Typescript
+- Adapt for mobile views
+- Complete integration tests
+- Better logic handling (more flexibility for bonuses, points, scores, etc)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -30,17 +52,3 @@ Your app is ready to be deployed!
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
 ### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).

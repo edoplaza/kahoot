@@ -1,0 +1,33 @@
+@import '../../styles/variables';
+
+.Item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  background: #3333;
+  font-size: $medium-font;
+  font-weight: 600;
+  margin: 0 0 20px 0;
+  padding: 20px 10px;
+  border-radius: 4px;
+
+  &__name {
+    text-align: center;
+    font-size: $medium-font;
+    width: 33.33%;
+  }
+
+  &__quantity {
+    text-align: center;
+    width: 33.33%;
+    font-size: $medium-font;
+    text-align: center;
+  }
+
+  &__score {
+    font-size: $medium-font;
+    text-align: center;
+    width: 33.33%;
+  }
+}

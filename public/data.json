@@ -1,0 +1,46 @@
+[
+  {
+    "name": "A",
+    "points": 50,
+    "bonus": 50,
+    "bonusRatio": 3
+  },
+  {
+    "name": "B",
+    "points": 30,
+    "bonus": 30,
+    "bonusRatio": 2
+  },
+  {
+    "name": "C",
+    "points": 20
+  },
+  {
+    "name": "D",
+    "points": 15
+  },
+  {
+    "name": "E",
+    "points": 10
+  },
+  {
+    "name": "F",
+    "points": 5,
+    "bonus": 2,
+    "bonusRatio": 6
+  },
+  {
+    "name": "G",
+    "points": 3,
+    "bonus": 1,
+    "bonusRatio": 2
+  },
+  {
+    "name": "H",
+    "points": 2
+  },
+  {
+    "name": "I",
+    "points": 1
+  }
+]
